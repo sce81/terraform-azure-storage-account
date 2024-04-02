@@ -25,7 +25,7 @@ Terraform ~> 1.7.0
 
 ### Outputs
 
-id:               = azurerm_storage_account.main.id 
-location:         = azurerm_storage_account.main.primary_location
-endpoint:         = azurerm_storage_account.main.primary_blob_endpoint
-name:             = azurerm_storage_account.main.name
+    id:               = azurerm_storage_account.main.id 
+    location:         = azurerm_storage_account.main.primary_location
+    endpoint:         = azurerm_storage_account.main.primary_blob_endpoint
+    name:             = azurerm_storage_account.main.name
