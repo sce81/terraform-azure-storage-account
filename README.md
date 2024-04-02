@@ -7,12 +7,12 @@ Terraform module for creating a Storage Account for use on Azure Platform
 
 ## Usage
 
-  module "example" {
-    source            = "git@github.com:sce81/terraform-azure-storage-account.git"
-    name            = "vault${substr(data.azurerm_subscription.current.tenant_id,-12-1)}"
-    environment     = "dev"
-    resource_group  = data.azurerm_resource_group.vault.name
-  }
+    module "example" {
+      source            = "git@github.com:sce81/terraform-azure-storage-account.git"
+      name            = "vault${substr(data.azurerm_subscription.current.tenant_id,-12-1)}"
+      environment     = "dev"
+      resource_group  = data.azurerm_resource_group.vault.name
+    }
 
 
 ### Prerequisites
