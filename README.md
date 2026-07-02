@@ -59,13 +59,18 @@ No modules.
 | ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_account_tier"></a> [account\_tier](#input\_account\_tier) | n/a | `string` | `"Standard"` | no |
 | <a name="input_adminuser"></a> [adminuser](#input\_adminuser) | n/a | `string` | `"admin"` | no |
+| <a name="input_allow_nested_items_to_be_public"></a> [allow\_nested\_items\_to\_be\_public](#input\_allow\_nested\_items\_to\_be\_public) | n/a | `bool` | `false` | no |
 | <a name="input_environment"></a> [environment](#input\_environment) | n/a | `any` | n/a | yes |
 | <a name="input_extra_tags"></a> [extra\_tags](#input\_extra\_tags) | n/a | `map(any)` | `{}` | no |
+| <a name="input_https_traffic_only_enabled"></a> [https\_traffic\_only\_enabled](#input\_https\_traffic\_only\_enabled) | n/a | `bool` | `true` | no |
 | <a name="input_instance_count"></a> [instance\_count](#input\_instance\_count) | n/a | `number` | `1` | no |
 | <a name="input_instance_repair"></a> [instance\_repair](#input\_instance\_repair) | n/a | `bool` | `true` | no |
+| <a name="input_min_tls_version"></a> [min\_tls\_version](#input\_min\_tls\_version) | n/a | `string` | `"TLS1_2"` | no |
 | <a name="input_name"></a> [name](#input\_name) | n/a | `any` | n/a | yes |
+| <a name="input_public_network_access_enabled"></a> [public\_network\_access\_enabled](#input\_public\_network\_access\_enabled) | n/a | `bool` | `false` | no |
 | <a name="input_replication_type"></a> [replication\_type](#input\_replication\_type) | n/a | `string` | `"LRS"` | no |
 | <a name="input_resource_group"></a> [resource\_group](#input\_resource\_group) | n/a | `any` | n/a | yes |
+| <a name="input_shared_access_key_enabled"></a> [shared\_access\_key\_enabled](#input\_shared\_access\_key\_enabled) | n/a | `bool` | `false` | no |
 | <a name="input_sku"></a> [sku](#input\_sku) | n/a | `string` | `"Standard_F2"` | no |
 | <a name="input_zone_balance"></a> [zone\_balance](#input\_zone\_balance) | n/a | `bool` | `true` | no |
 
