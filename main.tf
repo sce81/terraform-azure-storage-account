@@ -9,3 +9,13 @@ resource "azurerm_storage_account" "main" {
     local.common_tags, var.extra_tags,
   )
 }
+
+
+resource "azurerm_key_vault_managed_storage_account" "main" {
+  name                         = "examplemanagedstorage"
+  key_vault_id                 = var.keyvault
+  storage_account_id           = azurerm_storage_account.example.id
+  storage_account_key          = "key1"
+  regenerate_key_automatically = false
+  regeneration_period          = "P1D"
+}
